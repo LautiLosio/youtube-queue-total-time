@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Queue Total Time",
+  "version": "0.1.0",
+  "description": "Shows the total duration of the current YouTube queue next to the Queue title.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

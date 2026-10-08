@@ -1,0 +1,5 @@
+.yt-queue-total-time {
+  color: var(--yt-spec-text-secondary, currentColor);
+  font-weight: 400;
+  opacity: 0.88;
+}
